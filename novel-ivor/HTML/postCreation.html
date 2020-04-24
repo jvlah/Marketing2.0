@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <title>Novel</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+   
+    <!-- Custom CSS -->
+    <style>
+     body {
+  background: url('srra.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+    </style>
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Novel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="simulation.html">Marketing Picker
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Post Creation
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="informationphones.html">Information About the Phones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Back</a>
+        </li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h1 class="mt-5">Create Your Posts</h1>
+      <p class="lead">Marketing Campaign</p>
+      <br>
+      <br>
+    </div>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="container">
+<div class="card-deck">
+  <div class="card">
+  
+    <div class="card-body">
+      <h5 class="card-title">Brand Content</h5>
+      <p class="card-text">You create brand when you want to reach out to the audience with your own website-content </p>
+      <p class="card-text"><small class="text-muted">Please input a how many times you want to promote specific brand feature: </small><br><strong>Put 0 if you dont want to promote it</strong></p>
+     
+      <div class="row">
+        <div class="col-md-7 mb-3">
+
+          <p class="card-text">Smartphone Market General News:</p>
+          <input type="number" value="2" id="smgn" class="form-control" placeholder="Smartphone Market Count">
+          <br>
+          <p class="card-text">Brand news for none smartphone products:</p>
+          <input type="number" value="0" id="nonSmartphoneRelated" class="form-control" placeholder="None - Smartphone Count">
+          <br>
+          <p class="card-text">New About Brand Ecosystem:</p>
+          <input type="number" value="2" id="ecoSystem" class="form-control" placeholder="Ecosystem Count">
+          <br>
+          <p class="card-text">Important Anniversaries:</p>
+          <input type="number" value="3" id="anni" class="form-control" placeholder="Anniversary Count">
+          <br>
+          <p class="card-text">Random Topic o Current Events:</p>
+          <input type="number" value="1" id="random" class="form-control" placeholder="Random Topic Count">
+          <br>
+          <p class="card-text">Environmental Topics:</p>
+          <input type="number" value="0" id="environmental" class="form-control" placeholder="Environmental Topics">
+          
+          <!-- <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="brandtopic" value="1" checked>
+            <label class="form-check-label" for="inlineCheckbox1">Smartphone Market General News</label>
+          </div> <br> <br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="brandtopic" value="2">
+            <label class="form-check-label" for="inlineCheckbox2">Brand news for non-smartphone products</label>
+          </div> <br> <br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="brandtopic" value="3">
+            <label class="form-check-label" for="inlineCheckbox2">News about brand ecosystem</label>
+          </div> <br> <br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="brandtopic" value="4">
+            <label class="form-check-label" for="inlineCheckbox2">Important Anniversaries</label>
+          </div> <br> <br>
+        </div>
+        <div class="col-md-5 mb-3">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="brandtopic" value="5">
+            <label class="form-check-label" for="inlineCheckbox2">Random Topics on Current Events</label>
+          </div> <br> <br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="brandtopic" value="6">
+            <label class="form-check-label" for="inlineCheckbox2">Environmental Topics</label>
+          </div> <br> <br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="brandtopic" value="7">
+            <label class="form-check-label" for="inlineCheckbox2">No Content</label>
+          </div> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="card-text"><small class="text-muted">Please input a Comment: </small></p>
+        <input type="text" value="" id="commentbrand" class="form-control" placeholder="Comment"> <br>
+       <!--  <button class="btn btn-warning" type="submit" id="submitbrand">Submit Brand</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Mobile Content</h5>
+      <p class="card-text">Please select wheather you want to promote on Different Social Media Channels</p>
+
+      <p class="card-text"><small class="text-muted">Select the phone.</small></p>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="phone" id="phoneid" value="1">
+        <label class="form-check-label" for="inlineCheckbox1">Phone 1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="phone" id="phoneid" value="2" checked>
+        <label class="form-check-label" for="inlineCheckbox2">Phone 2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="phone" id="phoneid" value="3">
+        <label class="form-check-label" for="inlineCheckbox3">Phone 3</label>
+      </div>
+      <br><br>
+      <p class="card-text"><small class="text-muted">Please input a topic for the new post: </small></p> 
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="topicmobile" value="Model Promotion">
+        <label class="form-check-label" for="inlineCheckbox1">Model Promotion</label>
+      </div>
+     
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="topicmobile" value="Photography">
+        <label class="form-check-label" for="inlineCheckbox2">Photography</label>
+      </div>
+      <br> <br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="topicmobile" value="Memory" checked>
+        <label class="form-check-label" for="inlineCheckbox3">Memory</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="topicmobile" value="Distinctive Design">
+        <label class="form-check-label" for="inlineCheckbox1">Distinctive Design</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="topicmobile" value="Practical Design">
+        <label class="form-check-label" for="inlineCheckbox2">Practical Design</label>
+      </div>
+      <br>  <br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="topicmobile" value="Technical Support" checked>
+        <label class="form-check-label" for="inlineCheckbox3">Technical Support</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="topicmobile" value="Product Differentiation">
+        <label class="form-check-label" for="inlineCheckbox1">Product Differentiation</label>
+      </div>
+      <br> <br>
+ 
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="topicmobile" value="New Model">
+        <label class="form-check-label" for="inlineCheckbox3">New Model</label>
+      </div><br><br>
+
+      <!--CONTENT AND PAGES-->
+
+      <div class="row">
+        <div class="col">
+
+      <p class="card-text"><small class="text-muted">Which Pages are you targeting? </small></p> 
+      <p>Facebook: </p>
+      <div class="form-check form-check-inline">
+     
+        <input class="form-check-input" type="radio" name="fbpages" id="fbpages" value="false">
+        <label class="form-check-label" for="inlineCheckbox1">No</label>
+      </div>
+      <div class="form-check form-check-inline">
+       
+        <input class="form-check-input" type="radio" name="fbpages" id="fbpages" value="true" checked>
+        <label class="form-check-label" for="inlineCheckbox2">Yes</label>
+      </div>
+
+      <p>Instagram: </p>
+      <div class="form-check form-check-inline">
+     
+        <input class="form-check-input" type="radio" name="inpages" id="inpages" value="false">
+        <label class="form-check-label" for="inlineCheckbox1">No</label>
+      </div>
+      <div class="form-check form-check-inline">
+       
+        <input class="form-check-input" type="radio" name="inpages" id="inpages" value="true" checked>
+        <label class="form-check-label" for="inlineCheckbox2">Yes</label>
+      </div>
+
+      <p>Youtube: </p>
+      <div class="form-check form-check-inline">
+     
+        <input class="form-check-input" type="radio" name="ytpages" id="ytpages" value="false">
+        <label class="form-check-label" for="inlineCheckbox1">No</label>
+      </div>
+      <div class="form-check form-check-inline">
+       
+        <input class="form-check-input" type="radio" name="ytpages" id="ytpages" value="true" checked>
+        <label class="form-check-label" for="inlineCheckbox2">Yes</label>
+      </div>
+    </div>
+    <div class="col">
+      <p class="card-text"><small class="text-muted">Which Content are you targeting? </small></p>
+      <p>Facebook: </p>
+      <div class="form-check form-check-inline">
+     
+        <input class="form-check-input" type="radio" name="fbcontent" id="fbcontent" value="false" checked>
+        <label class="form-check-label" for="inlineCheckbox1">No</label>
+      </div>
+      <div class="form-check form-check-inline">
+       
+        <input class="form-check-input" type="radio" name="fbcontent" id="fbcontent" value="true">
+        <label class="form-check-label" for="inlineCheckbox2">Yes</label>
+      </div>
+
+      <p>Instagram: </p>
+      <div class="form-check form-check-inline">
+     
+        <input class="form-check-input" type="radio" name="incontent" id="incontent" value="false" checked>
+        <label class="form-check-label" for="inlineCheckbox1">No</label>
+      </div>
+      <div class="form-check form-check-inline">
+       
+        <input class="form-check-input" type="radio" name="incontent" id="incontent" value="true">
+        <label class="form-check-label" for="inlineCheckbox2">Yes</label>
+      </div>
+
+      <p>Youtube: </p>
+      <div class="form-check form-check-inline">
+     
+        <input class="form-check-input" type="radio" name="ytcontent" id="ytcontent" value="false" checked>
+        <label class="form-check-label" for="inlineCheckbox1">No</label>
+      </div>
+      <div class="form-check form-check-inline">
+       
+        <input class="form-check-input" type="radio" name="ytcontent" id="ytcontent" value="true">
+        <label class="form-check-label" for="inlineCheckbox2">Yes</label>
+      </div>
+    </div>
+  </div>
+  <br> 
+    <button class="btn btn-warning" type="button" id="mobilecontentsubmit">Submit Website Data </button>
+    <br> <br>
+    </div>
+  </div>
+</div>
+</div>
+<br> 
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Google Ads - Search </h5>
+          <p class="card-text"><small class="text-muted">Enter the name of the Campaign: </small></p>
+          <input type="text" id="campaignnamesearch" class="form-control" placeholder="Name" value="Google Ads Campaign"> <br>
+          <p class="card-text"><small class="text-muted">Select the keywords: </small></p>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="searchkeywords" value="Model Promotion">
+            <label class="form-check-label" for="inlineCheckbox1">Model Promotion</label>
+          </div>
+         
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="searchkeywords" value="Photography" checked>
+            <label class="form-check-label" for="inlineCheckbox2">Photography</label>
+          </div>
+          <br> <br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="searchkeywords" value="Memory" checked>
+            <label class="form-check-label" for="inlineCheckbox3">Memory</label>
+          </div>
+    
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="searchkeywords" value="Distinctive Design">
+            <label class="form-check-label" for="inlineCheckbox1">Distinctive Design</label>
+          </div>
+    
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="searchkeywords" value="Practical Design">
+            <label class="form-check-label" for="inlineCheckbox2">Practical Design</label>
+          </div>
+          <br>  <br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="searchkeywords" value="Technical Support">
+            <label class="form-check-label" for="inlineCheckbox3">Technical Support</label>
+          </div>
+    
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="searchkeywords" value="Product Differentiation">
+            <label class="form-check-label" for="inlineCheckbox1">Product Differentiation</label>
+          </div>
+          <br> <br>
+     
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="searchkeywords" value="New Model" checked>
+            <label class="form-check-label" for="inlineCheckbox3">New Model</label>
+          </div>
+          <br> <br>
+          <p class="card-text"><small class="text-muted">Enter Demographics: </small></p>
+
+
+          <!-- DEMOGRAPHIC SEARCH-->
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="1">
+            <label class="form-check-label" for="inlineCheckbox3">0-4</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="2">
+            <label class="form-check-label" for="inlineCheckbox3">5-9</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="3">
+            <label class="form-check-label" for="inlineCheckbox3">10-14</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="4" checked>
+            <label class="form-check-label" for="inlineCheckbox3">15-19</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="5">
+            <label class="form-check-label" for="inlineCheckbox3">20-24</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="6">
+            <label class="form-check-label" for="inlineCheckbox3">25-29</label>
+          </div>
+
+          <br><br>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="7">
+            <label class="form-check-label" for="inlineCheckbox3">30-34</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="8">
+            <label class="form-check-label" for="inlineCheckbox3">35-39</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="9">
+            <label class="form-check-label" for="inlineCheckbox3">40-44</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="10" checked>
+            <label class="form-check-label" for="inlineCheckbox3">45-49</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="11">
+            <label class="form-check-label" for="inlineCheckbox3">50-54</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="12">
+            <label class="form-check-label" for="inlineCheckbox3">55-59</label>
+          </div>
+
+          <br><br>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="13">
+            <label class="form-check-label" for="inlineCheckbox3">60-64</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="14">
+            <label class="form-check-label" for="inlineCheckbox3">65-69</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="15">
+            <label class="form-check-label" for="inlineCheckbox3">70-74</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="16">
+            <label class="form-check-label" for="inlineCheckbox3">75-79</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicsearch" value="17">
+            <label class="form-check-label" for="inlineCheckbox3">80+</label>
+          </div>
+
+          <!-- END DEMOGRAPHIC SEARCH-->
+          <br> <br>
+          <p class="card-text"><small class="text-muted">Select the Location: </small></p>
+          <input type="text" value="NY" id="locationsearch" class="form-control" placeholder="Location:"> <br>
+          <p class="card-text"><small class="text-muted">Enter Schedule:  [Integer DDMMYYYY]</small></p>
+          <input type="number" value="21" id="schedulesearch" class="form-control" placeholder="Schedule:"> <br>
+          <p class="card-text"><small class="text-muted">Select the devices: </small></p>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="desktopsearchplatform" value="Desktop">
+            <label class="form-check-label" for="inlineCheckbox3">Desktop</label>
+          </div>
+    
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="mobilesearchplatform" value="Mobile">
+            <label class="form-check-label" for="inlineCheckbox1">Mobile</label>
+          </div>
+          <br> <br>
+
+          <p class="card-text"><small class="text-muted">Your PPC: </small></p>
+          <input type="number" value="21" id="ppcsearch" class="form-control" disabled> <br>
+
+<!--           <button class="btn btn-primary" type="submit" id="submitsearch">Submit Search</button>
+ -->
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Google Ads - Display</h5>
+          <p class="card-text"><small class="text-muted">Enter the name of the Campaign: </small></p>
+          <input type="text" value="Google Ads Display" id="campaignnamedisplay" class="form-control" placeholder="Name"> <br>
+          <p class="card-text"><small class="text-muted">Select the keywords: </small></p>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="displaykeywords" value="Model Promotion" checked>
+            <label class="form-check-label" for="inlineCheckbox1">Model Promotion</label>
+          </div>
+         
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="displaykeywords" value="Photography">
+            <label class="form-check-label" for="inlineCheckbox2">Photography</label>
+          </div>
+          <br> <br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="displaykeywords" value="Memory" checked>
+            <label class="form-check-label" for="inlineCheckbox3">Memory</label>
+          </div>
+    
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="displaykeywords" value="Distinctive Design">
+            <label class="form-check-label" for="inlineCheckbox1">Distinctive Design</label>
+          </div>
+    
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="displaykeywords" value="Practical Design">
+            <label class="form-check-label" for="inlineCheckbox2">Practical Design</label>
+          </div>
+          <br>  <br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="displaykeywords" value="Technical Support">
+            <label class="form-check-label" for="inlineCheckbox3">Technical Support</label>
+          </div>
+    
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="displaykeywords" value="Product Differentiation">
+            <label class="form-check-label" for="inlineCheckbox1">Product Differentiation</label>
+          </div>
+          <br> <br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="displaykeywords" value="New Model">
+            <label class="form-check-label" for="inlineCheckbox3">New Model</label>
+          </div>
+          <br> <br>
+          <p class="card-text"><small class="text-muted">Enter Demographics: </small></p>
+
+          <!-- DEMOGRAPHIC DISPLAY-->
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="1" checked>
+            <label class="form-check-label" for="inlineCheckbox3">0-4</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="2">
+            <label class="form-check-label" for="inlineCheckbox3">5-9</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="3">
+            <label class="form-check-label" for="inlineCheckbox3">10-14</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="4">
+            <label class="form-check-label" for="inlineCheckbox3">15-19</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="5">
+            <label class="form-check-label" for="inlineCheckbox3">20-24</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="6">
+            <label class="form-check-label" for="inlineCheckbox3">25-29</label>
+          </div>
+
+          <br><br>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="7">
+            <label class="form-check-label" for="inlineCheckbox3">30-34</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="8">
+            <label class="form-check-label" for="inlineCheckbox3">35-39</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="9">
+            <label class="form-check-label" for="inlineCheckbox3">40-44</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="10">
+            <label class="form-check-label" for="inlineCheckbox3">45-49</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="11">
+            <label class="form-check-label" for="inlineCheckbox3">50-54</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="12" checked>
+            <label class="form-check-label" for="inlineCheckbox3">55-59</label>
+          </div>
+
+          <br><br>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="13">
+            <label class="form-check-label" for="inlineCheckbox3">60-64</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="14">
+            <label class="form-check-label" for="inlineCheckbox3">65-69</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="15">
+            <label class="form-check-label" for="inlineCheckbox3">70-74</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="16">
+            <label class="form-check-label" for="inlineCheckbox3">75-79</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="demographicdisplay" value="17">
+            <label class="form-check-label" for="inlineCheckbox3">80+</label>
+          </div>
+
+          <!-- END DEMOGRAPHIC DISPLAY-->
+          <br> <br>
+          <p class="card-text"><small class="text-muted">Select the Location: </small></p>
+          <input type="text" value="LA" id="locationdisplay" class="form-control" placeholder="Location:"> <br>
+          <p class="card-text"><small class="text-muted">Enter Schedule: [Integer DDMMYYYY]</small></p>
+          <input type="number" value="44" id="scheduledisplay" class="form-control" placeholder="Schedule:"> <br>
+          <p class="card-text"><small class="text-muted">Select the devices: </small></p>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="desktopdisplay" value="Desktop">
+            <label class="form-check-label" for="inlineCheckbox3">Desktop</label>
+          </div>
+    
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="mobiledisplay" value="Mobile" checked>
+            <label class="form-check-label" for="inlineCheckbox1">Mobile</label>
+          </div>
+
+          <br> <br>
+
+          <p class="card-text"><small class="text-muted">Your PPC (DISPLAY): </small></p>
+          <input type="number" value="32" id="ppcdisplay" class="form-control" disabled> <br>
+
+          <p class="card-text"><small class="text-muted">Placement: </small></p>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="placementdisplay" value="Random1">
+            <label class="form-check-label" for="inlineCheckbox3">Random1</label>
+          </div>
+    
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="placementdisplay" value="Random2" checked>
+            <label class="form-check-label" for="inlineCheckbox1">Random2</label>
+          </div>
+    
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="placementdisplay" value="Random3" checked>
+            <label class="form-check-label" for="inlineCheckbox2">Random3</label>
+          </div>
+          <br>   <br>
+
+          <button class="btn btn-primary" type="submit" id="submitdisplay">Submit Google Ads Data</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Facebook Page </h5>
+         <!--FACEBOOK PAGE KEYWORDS-->
+         <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="fbpagekeywords" value="Model Promotion">
+          <label class="form-check-label" for="inlineCheckbox1">Model Promotion</label>
+        </div>
+       
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="fbpagekeywords" value="Photography">
+          <label class="form-check-label" for="inlineCheckbox2">Photography</label>
+        </div>
+  
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="fbpagekeywords" value="Memory">
+          <label class="form-check-label" for="inlineCheckbox3">Memory</label>
+        </div>
+  
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="fbpagekeywords" value="Distinctive Design">
+          <label class="form-check-label" for="inlineCheckbox1">Distinctive Design</label>
+        </div>
+  
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="fbpagekeywords" value="Practical Design" checked>
+          <label class="form-check-label" for="inlineCheckbox2">Practical Design</label>
+        </div>
+       
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="fbpagekeywords" value="Technical Support" checked>
+          <label class="form-check-label" for="inlineCheckbox3">Technical Support</label>
+        </div>
+  
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="fbpagekeywords" value="Product Differentiation">
+          <label class="form-check-label" for="inlineCheckbox1">Product Differentiation</label>
+        </div>
+      
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="fbpagekeywords" value="New Model">
+          <label class="form-check-label" for="inlineCheckbox3">New Model</label>
+        </div>
+          <!--END END FACEBOOK PAGE KEYWORDS-->
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Instagram Page </h5>
+            <!--INSTAGRAM PAGE KEYWORDS-->
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inpagekeywords" value="Model Promotion">
+              <label class="form-check-label" for="inlineCheckbox1">Model Promotion</label>
+            </div>
+           
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inpagekeywords" value="Photography">
+              <label class="form-check-label" for="inlineCheckbox2">Photography</label>
+            </div>
+       
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inpagekeywords" value="Memory">
+              <label class="form-check-label" for="inlineCheckbox3">Memory</label>
+            </div>
+      
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inpagekeywords" value="Distinctive Design">
+              <label class="form-check-label" for="inlineCheckbox1">Distinctive Design</label>
+            </div>
+      
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inpagekeywords" value="Practical Design">
+              <label class="form-check-label" for="inlineCheckbox2">Practical Design</label>
+            </div>
+          
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inpagekeywords" value="Technical Support">
+              <label class="form-check-label" for="inlineCheckbox3">Technical Support</label>
+            </div>
+      
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inpagekeywords" value="Product Differentiation" checked>
+              <label class="form-check-label" for="inlineCheckbox1">Product Differentiation</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inpagekeywords" value="New Model">
+              <label class="form-check-label" for="inlineCheckbox3">New Model</label>
+            </div>
+              <!--END END INSTAGRAM PAGE KEYWORDS-->
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Youtube Page: </h5>
+           <!--YOUTUBE PAGE KEYWORDS-->
+           <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="ytpagekeywords" value="Model Promotion">
+            <label class="form-check-label" for="inlineCheckbox1">Model Promotion</label>
+          </div>
+         
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="ytpagekeywords" value="Photography" checked>
+            <label class="form-check-label" for="inlineCheckbox2">Photography</label>
+          </div>
+         
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="ytpagekeywords" value="Memory">
+            <label class="form-check-label" for="inlineCheckbox3">Memory</label>
+          </div>
+    
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="ytpagekeywords" value="Distinctive Design">
+            <label class="form-check-label" for="inlineCheckbox1">Distinctive Design</label>
+          </div>
+    
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="ytpagekeywords" value="Practical Design">
+            <label class="form-check-label" for="inlineCheckbox2">Practical Design</label>
+          </div>
+      
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="ytpagekeywords" value="Technical Support" checked>
+            <label class="form-check-label" for="inlineCheckbox3">Technical Support</label>
+          </div>
+    
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="ytpagekeywords" value="Product Differentiation">
+            <label class="form-check-label" for="inlineCheckbox1">Product Differentiation</label>
+          </div>
+  
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="ytpagekeywords" value="New Model">
+            <label class="form-check-label" for="inlineCheckbox3">New Model</label>
+          </div>
+             <!--END END YOUTUBE PAGE KEYWORDS-->
+        </div>
+      </div>
+    </div>
+    <br><br> 
+    <div class="col-sm-12">
+      <br>
+      <div class="card">
+        <div class="card-body">
+          
+          <div class="container d-flex justify-content-center align-items-center">
+            <button class="btn btn-warning" type="submit" id="submitsocialmedia">Submit the Pages</button>
+          </div>
+         
+           
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br><br> <br>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<script src="../creation.js"></script>
+</body>
+</html>

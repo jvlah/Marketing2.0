@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <title>Novel</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+
+    <!-- Custom CSS -->
+    <style>
+  
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+       </style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Novel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="simulation.html">Marketing Picker
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="postCreation.html">Post Creation
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="informationphones.html">Information About the Phones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Back</a>
+        </li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12 text-center">
+                    <h1 class="mt-5">Information</h1>
+                    <p class="lead">Learn about the product</p>
+                  </div>
+                </div>
+              </div>
+
+              <section class="pricing py-5">
+                <div class="container">
+                  <div class="row">
+                    <!-- Free Tier -->
+                    <div class="col-lg-4">
+                      <div class="card mb-5 mb-lg-0">
+                        <div class="card-body">
+                          <h5 class="card-title text-muted text-uppercase text-center">Phone 1</h5>
+                          <h6 class="card-price text-center">P1</h6>
+                          <hr>
+                          <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Price Range: <strong>$$$</strong></li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Technology: <strong>High-End</strong></li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Photography <strong>5</strong></li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Memory <strong>5</strong></li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Design: <strong>5</strong></li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Tech Support: <strong>5</strong></li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Brand Appeal: <strong>5</strong></li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Differentiation: <strong>3</strong></li>
+                          </ul>
+                          <button type="button" class="btn btn-primary" id="button1"data-toggle="modal" data-target="#exampleModal1">More Information</button>
+                          
+                          <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Phone 1 Information</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body" id="phone1body">
+                                  Phone 1
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Plus Tier -->
+                    <div class="col-lg-4">
+                      <div class="card mb-5 mb-lg-0">
+                        <div class="card-body">
+                          <h5 class="card-title text-muted text-uppercase text-center">Phone 2</h5>
+                          <h6 class="card-price text-center">P2</h6>
+                          <hr>
+                          <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Price Range: <strong>$$</strong></li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Technology: <strong>Mid-End</strong></li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Photography <strong>4</strong></li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Memory <strong>4</strong></li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Design: <strong>4</strong></li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Tech Support: <strong>4</strong></li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Brand Appeal: <strong>3</strong></li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Differentiation: <strong>2</strong></li>
+                          </ul>
+                          <button type="button" class="btn btn-primary" id="button2" data-toggle="modal" data-target="#exampleModal2">More Information</button>
+                          <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Phone 2 Information</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body" id="phone2body">
+                                  Phone 2
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Pro Tier -->
+                    <div class="col-lg-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title text-muted text-uppercase text-center">Phone 3</h5>
+                          <h6 class="card-price text-center">P3</h6>
+                          <hr>
+                          <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Price Range: <strong>$</strong></li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Technology: <strong>Low-End</strong></li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Photography <strong>3</strong></li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Memory <strong>3</strong></li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Design: <strong>4</strong></li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Tech Support: <strong>3</strong></li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Brand Appeal: <strong>1</strong></li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Differentiation: <strong>1</strong></li>
+                          </ul>
+                          <button type="button" class="btn btn-primary" id="button3" data-toggle="modal" data-target="#exampleModal3">More Information</button>
+                          <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Phone 3 Information</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body" id="phone3body">
+                                  Phone 3
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+                
+<!-- /.container -->
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<script src="../gettinginfo.js"></script>
+
+
+</body>
+</html>

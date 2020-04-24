@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <title>Novel</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+     body {
+  background: url('sa.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+    </style>
+
+</head>
+
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Novel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Marketing Picker
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="postCreation.html">Post Creation
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="informationphones.html">Information About the Phones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Back</a>
+        </li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h1 class="mt-5">Start your marketing simulation</h1>
+      <p class="lead">Week 1</p>
+      <br>
+      <br>
+    </div>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="container" id="container">
+    <div class="row">
+        <div class="starter-template">
+            <!-- MAIN CENTER -->
+            <main role="main">
+            
+                <h3>Please select the phone</h3>
+                 
+                  <p class="lead text-muted" id="weekplacer" style="font-size: 12px;">More information about the phone can be found on the "info" menu tab</p>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="phone" id="whichphone" value="1" checked>
+                    <label class="form-check-label" for="inlineCheckbox1">Phone 1</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="phone" id="whichphone" value="2">
+                    <label class="form-check-label" for="inlineCheckbox2">Phone 2</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="phone" id="whichphone" value="3">
+                    <label class="form-check-label" for="inlineCheckbox3">Phone 3</label>
+                  </div>
+                <br>
+                <br>
+                <br>
+
+                <form>
+                  <h3>Please select amount for the phone </h3>
+                  <div class="row">
+                    <div class="col">
+                      <input type="number" value="1000" id="budgetphone" class="form-control" placeholder="$">
+                    </div>
+                  
+                  </div>
+                </form>
+
+               <br>
+               <br>
+               <h3>Which Social Media Target Options do you want?</h3>
+                <div class="row">
+                  <div class="col-md-5 mb-3">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="smTargetID" value="Social Media Channels" checked>
+                      <label class="form-check-label" for="inlineCheckbox1">Social Media Channels</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="smTargetID" value="Google Ads" checked>
+                      <label class="form-check-label" for="inlineCheckbox2">Google Ads</label>
+                    </div>
+                    <!--
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" id="nothing" value="Nothing">
+                      <label class="form-check-label" for="inlineCheckbox3">Don't Want Anything</label>
+                    </div>
+                  -->
+                  </div>
+                </div>
+                <h3>Which channels do you want?</h3>
+                <br>
+          
+                <div class="row">
+                  <div class="col-md-5 mb-3">
+                    <h5>Social Media Channels</h5>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="smChannel" value="FBPage">
+                      <label class="form-check-label" for="inlineCheckbox1">FB Page</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="smChannel" value="FBContent" checked>
+                      <label class="form-check-label" for="inlineCheckbox2">FB Content</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="smChannel" value="InstaPage">
+                      <label class="form-check-label" for="inlineCheckbox3">Instagram Page</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="smChannel" value="InstaContent" checked>
+                      <label class="form-check-label" for="inlineCheckbox3">Instagram Content</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="smChannel" value="YTPage" checked>
+                      <label class="form-check-label" for="inlineCheckbox3">YT Page</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="smChannel" value="YTContent">
+                      <label class="form-check-label" for="inlineCheckbox3">YT Content</label>
+                    </div>
+                  </div>
+                  <div class="col-md-5 mb-3">
+                    <h5>Google Ads</h5>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="ggAdds" value="Search Campaign" checked>
+                      <label class="form-check-label" for="inlineCheckbox1">Search Campaign</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="ggAdds" value="Display Campaign" checked>
+                      <label class="form-check-label" for="inlineCheckbox2">Display Campaign</label>
+                    </div>
+                    
+                  </div>
+                </div>
+                
+                <br>
+                <br>
+
+                <h3>Add your Keywords</h3>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="keyword" value="General Product Features">
+                  <label class="form-check-label" for="inlineCheckbox1">General Product Features</label>
+                </div>
+                <br> <br>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="keyword" value="Photography" checked>
+                  <label class="form-check-label" for="inlineCheckbox2">Photography</label>
+                </div>
+            
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="keyword" value="Memory">
+                  <label class="form-check-label" for="inlineCheckbox3">Memory</label>
+                </div>
+                <br> <br>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="keyword" value="Distinctive Design" checked>
+                  <label class="form-check-label" for="inlineCheckbox1">Distinctive Design</label>
+                </div>
+         
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="keyword" value="Practical Design">
+                  <label class="form-check-label" for="inlineCheckbox2">Practical Design</label>
+                </div>
+                <br>  <br>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="keyword" value="Technical Support" checked>
+                  <label class="form-check-label" for="inlineCheckbox3">Technical Support</label>
+                </div>
+          
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="keyword" value="Product Differentiation">
+                  <label class="form-check-label" for="inlineCheckbox1">Product Differentiation</label>
+                </div>
+                <br> <br>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="keyword" value="No Content">
+                  <label class="form-check-label" for="inlineCheckbox2">No Content</label>
+                </div>
+           
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="keyword" value="New Model">
+                  <label class="form-check-label" for="inlineCheckbox3">New Model</label>
+                </div>
+                
+                <br>
+                <br>
+              
+                <div class="row">
+                  <div class="col">
+                    <button class="btn btn-primary" type="submit" id="submit">Submit</button>
+                    <button class="btn btn-danger" type="submit" id="lock">Lock the Data</button>
+                  </div>
+                  
+                </div>
+                <br>
+                <br>
+              
+              </main>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<script src="../picker.js"></script>
+<script src="../validation.js"></script>
+
+</body>
+</html>
